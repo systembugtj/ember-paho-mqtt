@@ -5,7 +5,7 @@ module.exports = {
   afterInstall: function() {
     var addon = this;
     var bowerPackages = [
-      { name: 'paho-mqtt', target: '1.0.1' }
+      { name: 'paho-mqtt', target: '*' }
     ];
 
     return addon.addBowerPackagesToProject(bowerPackages);
