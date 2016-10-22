@@ -1,6 +1,5 @@
 /*jshint node:true*/
 module.exports = {
-  description: ''
   normalizeEntityName: function() {},
 
   afterInstall: function() {
@@ -8,7 +7,7 @@ module.exports = {
     var bowerPackages = [
       { name: 'paho-mqtt', target: '1.0.1' }
     ];
-    
+
     return addon.addBowerPackagesToProject(bowerPackages);
   }
 };
