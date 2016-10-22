@@ -1,8 +1,11 @@
 # Ember-paho-mqtt
 
-This README outlines the details of collaborating on this Ember addon.
+ember addon for paho-mqtt
+
+* `ember install ember-paho-mqtt`
 
 ## Installation
+
 
 * `git clone <repository-url>` this repository
 * `cd ember-paho-mqtt`
